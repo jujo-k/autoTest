@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="true" thread-count="2">
+	<parameter name ="usrname" value="15757390200"/>
+	<parameter name ="psw" value="jes199619."/>
+	
+  <test name="Test">
+	   <listeners>
+	        <listener class-name="com.volley.yinhe.util.TestNGListenerScreen" />
+	    </listeners>
+	    
+    <classes>
+      <class name="com.volley.yinhe.testCase.CheckBuyCourse"/>
+    </classes>
+  </test> 
+  
+   <test name="Test1">
+	   <listeners>
+	        <listener class-name="com.volley.yinhe.util.TestNGListenerScreen" />
+	    </listeners>
+	    
+    <classes>
+      <class name="com.volley.yinhe.testCase.CheckBuyCourse"/>
+      <class name="com.volley.yinhe.testCase.SuiteTestLogin"/>
+    </classes>
+  </test> 
+</suite> 
+
+

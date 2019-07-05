@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60608" started-at="2019-04-02T01:21:33Z" finished-at="2019-04-02T01:22:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60608" started-at="2019-04-02T01:21:33Z" finished-at="2019-04-02T01:22:33Z">
+      <class name="com.volley.yinhe.testCase.SuiteTestBuy">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.volley.yinhe.testCase.SuiteTestBuy@3bfdc050]" name="beforeClass" is-config="true" duration-ms="42948" started-at="2019-04-02T01:21:33Z" finished-at="2019-04-02T01:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="SuiteTestBuy()[pri:0, instance:com.volley.yinhe.testCase.SuiteTestBuy@3bfdc050]" name="SuiteTestBuy" duration-ms="1047" started-at="2019-04-02T01:22:16Z" finished-at="2019-04-02T01:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTestBuy -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.volley.yinhe.testCase.SuiteTestBuy@3bfdc050]" name="afterClass" is-config="true" duration-ms="16522" started-at="2019-04-02T01:22:17Z" finished-at="2019-04-02T01:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.volley.yinhe.testCase.SuiteTestBuy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

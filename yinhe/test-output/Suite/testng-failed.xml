@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="psw" value="jes199619."/>
+  <parameter name="usrname" value="15757390200"/>
+  <listeners>
+    <listener class-name="com.volley.yinhe.util.TestNGListenerScreen"/>
+  </listeners>
+  <test thread-count="2" name="Test1(failed)" parallel="methods">
+    <classes>
+      <class name="com.volley.yinhe.testCase.CheckBuyCourse">
+        <methods>
+          <include name="goToCheck"/>
+          <include name="submitOrder"/>
+          <include name="CheckBuyCourseTest"/>
+          <include name="addCart"/>
+          <include name="close"/>
+          <include name="getLoginHome"/>
+          <include name="testLogin"/>
+          <include name="payOrder"/>
+        </methods>
+      </class> <!-- com.volley.yinhe.testCase.CheckBuyCourse -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
